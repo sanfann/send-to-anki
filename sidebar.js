@@ -7,7 +7,7 @@ submitButton.addEventListener("click", () => {
     example = example.replaceAll("\r\n", "</br>");
     example = example.replaceAll("\r", "</br>");
     example = example.replaceAll("\n", "</br>");
-    tokens.forEach(t => example = example.replaceAll(t, "__"));
+    tokens.forEach(t => example = example.replaceAll(` ${t} `, " __ "));
 
     const front = `<b>${definition}</b></br></br>${example}`;
 
