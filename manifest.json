@@ -1,0 +1,14 @@
+{
+  "name": "Add a card to Anki",
+  "version": "1.0",
+  "description": "Add a card to anki",
+  "manifest_version": 2,
+  "permissions": [
+    "http://localhost/*"
+  ],
+  "sidebar_action": {
+    "default_title": "Send to Anki",
+    "default_panel": "sidebar.html",
+    "default_icon": "anki-icon.png"
+  }
+}
